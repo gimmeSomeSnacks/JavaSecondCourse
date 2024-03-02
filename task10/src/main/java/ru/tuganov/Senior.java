@@ -1,0 +1,10 @@
+package ru.tuganov;
+import org.springframework.stereotype.Component;
+
+@Component
+public class Senior implements Programmer{
+    @Override
+    public String doCoding() {
+            return "Codding smth veeery smart";
+    }
+}
