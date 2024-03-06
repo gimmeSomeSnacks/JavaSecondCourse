@@ -1,0 +1,5 @@
+program:
+  user:
+    name: User
+    last_name: Tuganov
+    group: IKBO-20-22
