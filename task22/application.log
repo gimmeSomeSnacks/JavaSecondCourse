@@ -1,0 +1,135 @@
+17705 [main] INFO  ru.tuganov.Task22Application – Starting Task22Application using Java 21.0.2 with PID 13860 (C:\Users\user\IdeaProjects\task22\build\classes\java\main started by user in C:\Users\user\IdeaProjects\task22)
+17725 [main] INFO  ru.tuganov.Task22Application – No active profile set, falling back to 1 default profile: "default"
+35534 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+36047 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 450 ms. Found 2 JPA repository interfaces.
+44929 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat initialized with port 8080 (http)
+45009 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Initializing ProtocolHandler ["http-nio-8080"]
+45023 [main] INFO  o.a.catalina.core.StandardService – Starting service [Tomcat]
+45025 [main] INFO  o.a.catalina.core.StandardEngine – Starting Servlet engine: [Apache Tomcat/10.1.19]
+45498 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring embedded WebApplicationContext
+45500 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext – Root WebApplicationContext: initialization completed in 27240 ms
+46625 [main] INFO  o.h.jpa.internal.util.LogHelper – HHH000204: Processing PersistenceUnitInfo [name: default]
+47219 [main] INFO  org.hibernate.Version – HHH000412: Hibernate ORM core version 6.4.4.Final
+47586 [main] INFO  o.h.c.i.RegionFactoryInitiator – HHH000026: Second-level cache disabled
+50505 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo – No LoadTimeWeaver setup: ignoring JPA class transformer
+51083 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Starting...
+53210 [main] INFO  com.zaxxer.hikari.pool.HikariPool – HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5df2023c
+53228 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Start completed.
+77695 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator – HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+80232 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Initialized JPA EntityManagerFactory for persistence unit 'default'
+86715 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+92879 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Starting ProtocolHandler ["http-nio-8080"]
+93026 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat started on port 8080 (http) with context path ''
+93104 [main] INFO  ru.tuganov.Task22Application – Started Task22Application in 90.371 seconds (process running for 98.925)
+93232 [scheduling-1] INFO  ru.tuganov.services.ServiceDB – !!!  All students  !!!
+95045 [scheduling-1] INFO  r.t.s.ServiceExecutionTimeAspect – Метод Iterable ru.tuganov.services.ServiceDB.getStudents() выполнен за 1713 мс
+95121 [scheduling-1] INFO  r.tuganov.services.ScheduledService – []
+95138 [scheduling-1] INFO  ru.tuganov.services.ServiceDB – !!!  All students  !!!
+95177 [scheduling-1] INFO  r.t.s.ServiceExecutionTimeAspect – Метод Iterable ru.tuganov.services.ServiceDB.getStudents() выполнен за 39 мс
+95209 [scheduling-1] INFO  ru.tuganov.services.ServiceDB – !!!  All subjects  !!!
+95743 [scheduling-1] INFO  r.t.s.ServiceExecutionTimeAspect – Метод Iterable ru.tuganov.services.ServiceDB.getSubjects() выполнен за 534 мс
+96185 [scheduling-1] INFO  r.tuganov.services.ScheduledService – [id: 1000; name: mymy; description: qqqq; student_id: 1, id: 10; name: mymy; description: wwww; student_id: 2, id: 3; name: 123; description: wwww; student_id: 200, id: 111111; name: 1111111111; description: wwww; student_id: 500]
+96192 [scheduling-1] INFO  ru.tuganov.services.ServiceDB – !!!  All subjects  !!!
+96229 [scheduling-1] INFO  r.t.s.ServiceExecutionTimeAspect – Метод Iterable ru.tuganov.services.ServiceDB.getSubjects() выполнен за 37 мс
+273104 [scheduling-1] INFO  ru.tuganov.services.ServiceDB – !!!  All students  !!!
+273108 [scheduling-1] INFO  r.t.s.ServiceExecutionTimeAspect – Метод Iterable ru.tuganov.services.ServiceDB.getStudents() выполнен за 4 мс
+273110 [scheduling-1] INFO  r.tuganov.services.ScheduledService – []
+273111 [scheduling-1] INFO  ru.tuganov.services.ServiceDB – !!!  All students  !!!
+273114 [scheduling-1] INFO  r.t.s.ServiceExecutionTimeAspect – Метод Iterable ru.tuganov.services.ServiceDB.getStudents() выполнен за 3 мс
+273116 [scheduling-1] INFO  ru.tuganov.services.ServiceDB – !!!  All subjects  !!!
+273121 [scheduling-1] INFO  r.t.s.ServiceExecutionTimeAspect – Метод Iterable ru.tuganov.services.ServiceDB.getSubjects() выполнен за 5 мс
+273122 [scheduling-1] INFO  r.tuganov.services.ScheduledService – [id: 1000; name: mymy; description: qqqq; student_id: 1, id: 10; name: mymy; description: wwww; student_id: 2, id: 3; name: 123; description: wwww; student_id: 200, id: 111111; name: 1111111111; description: wwww; student_id: 500]
+273123 [scheduling-1] INFO  ru.tuganov.services.ServiceDB – !!!  All subjects  !!!
+273127 [scheduling-1] INFO  r.t.s.ServiceExecutionTimeAspect – Метод Iterable ru.tuganov.services.ServiceDB.getSubjects() выполнен за 4 мс
+307747 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Closing JPA EntityManagerFactory for persistence unit 'default'
+307753 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown initiated...
+307765 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown completed.
+3995 [main] INFO  ru.tuganov.Task22Application – Starting Task22Application using Java 21.0.2 with PID 5640 (C:\Users\user\IdeaProjects\task22\build\classes\java\main started by user in C:\Users\user\IdeaProjects\task22)
+4006 [main] INFO  ru.tuganov.Task22Application – No active profile set, falling back to 1 default profile: "default"
+12592 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+14035 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 1266 ms. Found 2 JPA repository interfaces.
+22629 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat initialized with port 8080 (http)
+22691 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Initializing ProtocolHandler ["http-nio-8080"]
+22702 [main] INFO  o.a.catalina.core.StandardService – Starting service [Tomcat]
+22704 [main] INFO  o.a.catalina.core.StandardEngine – Starting Servlet engine: [Apache Tomcat/10.1.19]
+23054 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring embedded WebApplicationContext
+23055 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext – Root WebApplicationContext: initialization completed in 18736 ms
+23848 [main] INFO  o.h.jpa.internal.util.LogHelper – HHH000204: Processing PersistenceUnitInfo [name: default]
+24116 [main] INFO  org.hibernate.Version – HHH000412: Hibernate ORM core version 6.4.4.Final
+24295 [main] INFO  o.h.c.i.RegionFactoryInitiator – HHH000026: Second-level cache disabled
+25590 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo – No LoadTimeWeaver setup: ignoring JPA class transformer
+25692 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Starting...
+26253 [main] INFO  com.zaxxer.hikari.pool.HikariPool – HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@30358dc7
+26260 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Start completed.
+30461 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator – HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+30740 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Initialized JPA EntityManagerFactory for persistence unit 'default'
+32452 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+33660 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Starting ProtocolHandler ["http-nio-8080"]
+33728 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat started on port 8080 (http) with context path ''
+33765 [main] INFO  ru.tuganov.Task22Application – Started Task22Application in 32.952 seconds (process running for 36.476)
+33829 [scheduling-1] INFO  ru.tuganov.services.ServiceDB – !!!  All students  !!!
+34246 [scheduling-1] INFO  r.t.s.ServiceExecutionTimeAspect – Метод Iterable ru.tuganov.services.ServiceDB.getStudents() выполнен за 409 мс
+34256 [scheduling-1] INFO  ru.tuganov.services.ServiceDB – !!!  All subjects  !!!
+34298 [scheduling-1] INFO  r.t.s.ServiceExecutionTimeAspect – Метод Iterable ru.tuganov.services.ServiceDB.getSubjects() выполнен за 43 мс
+46171 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring DispatcherServlet 'dispatcherServlet'
+46173 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet – Initializing Servlet 'dispatcherServlet'
+46188 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet – Completed initialization in 13 ms
+46678 [http-nio-8080-exec-1] INFO  ru.tuganov.services.ServiceDB – !!!  All students  !!!
+46695 [http-nio-8080-exec-1] INFO  r.t.s.ServiceExecutionTimeAspect – Метод Iterable ru.tuganov.services.ServiceDB.getStudents() выполнен за 17 мс
+58343 [http-nio-8080-exec-3] INFO  ru.tuganov.services.ServiceDB – !!!  All subjects  !!!
+58355 [http-nio-8080-exec-3] INFO  r.t.s.ServiceExecutionTimeAspect – Метод Iterable ru.tuganov.services.ServiceDB.getSubjects() выполнен за 12 мс
+64404 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Closing JPA EntityManagerFactory for persistence unit 'default'
+64411 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown initiated...
+64448 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown completed.
+2760 [main] INFO  ru.tuganov.Task22Application – Starting Task22Application using Java 21.0.2 with PID 6320 (C:\Users\user\IdeaProjects\task22\build\classes\java\main started by user in C:\Users\user\IdeaProjects\task22)
+2769 [main] INFO  ru.tuganov.Task22Application – No active profile set, falling back to 1 default profile: "default"
+5635 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+5825 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 163 ms. Found 2 JPA repository interfaces.
+8081 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat initialized with port 8080 (http)
+8112 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Initializing ProtocolHandler ["http-nio-8080"]
+8117 [main] INFO  o.a.catalina.core.StandardService – Starting service [Tomcat]
+8118 [main] INFO  o.a.catalina.core.StandardEngine – Starting Servlet engine: [Apache Tomcat/10.1.19]
+8315 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring embedded WebApplicationContext
+8317 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext – Root WebApplicationContext: initialization completed in 5325 ms
+8906 [main] INFO  o.h.jpa.internal.util.LogHelper – HHH000204: Processing PersistenceUnitInfo [name: default]
+9095 [main] INFO  org.hibernate.Version – HHH000412: Hibernate ORM core version 6.4.4.Final
+9227 [main] INFO  o.h.c.i.RegionFactoryInitiator – HHH000026: Second-level cache disabled
+10380 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo – No LoadTimeWeaver setup: ignoring JPA class transformer
+10461 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Starting...
+11023 [main] INFO  com.zaxxer.hikari.pool.HikariPool – HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@30358dc7
+11029 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Start completed.
+15560 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator – HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+15874 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Initialized JPA EntityManagerFactory for persistence unit 'default'
+17383 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+18595 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Starting ProtocolHandler ["http-nio-8080"]
+18653 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat started on port 8080 (http) with context path ''
+18688 [main] INFO  ru.tuganov.Task22Application – Started Task22Application in 17.991 seconds (process running for 21.451)
+18752 [scheduling-1] INFO  ru.tuganov.services.ServiceDB – !!!  All students  !!!
+19181 [scheduling-1] INFO  r.t.s.ServiceExecutionTimeAspect – Метод Iterable ru.tuganov.services.ServiceDB.getStudents() выполнен за 421 мс
+19193 [scheduling-1] INFO  ru.tuganov.services.ServiceDB – !!!  All subjects  !!!
+19244 [scheduling-1] INFO  r.t.s.ServiceExecutionTimeAspect – Метод Iterable ru.tuganov.services.ServiceDB.getSubjects() выполнен за 51 мс
+19285 [scheduling-1] ERROR o.s.s.s.TaskUtils$LoggingErrorHandler – Unexpected error occurred in scheduled task
+java.io.IOException: Stream closed
+	at java.base/sun.nio.cs.StreamEncoder.ensureOpen(StreamEncoder.java:52)
+	at java.base/sun.nio.cs.StreamEncoder.lockedWrite(StreamEncoder.java:151)
+	at java.base/sun.nio.cs.StreamEncoder.write(StreamEncoder.java:139)
+	at java.base/sun.nio.cs.StreamEncoder.write(StreamEncoder.java:167)
+	at java.base/java.io.OutputStreamWriter.write(OutputStreamWriter.java:237)
+	at java.base/java.io.Writer.write(Writer.java:278)
+	at ru.tuganov.services.ScheduledService.remadeFiles(ScheduledService.java:36)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.runInternal(ScheduledMethodRunnable.java:130)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.lambda$run$2(ScheduledMethodRunnable.java:124)
+	at io.micrometer.observation.Observation.observe(Observation.java:499)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:124)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+44075 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Closing JPA EntityManagerFactory for persistence unit 'default'
+44084 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown initiated...
+44120 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown completed.
