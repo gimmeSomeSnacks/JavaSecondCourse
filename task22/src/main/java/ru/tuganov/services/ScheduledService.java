@@ -6,7 +6,7 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.scheduling.annotation.EnableScheduling;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
-import ru.tuganov.TaskMBean;
+import ru.tuganov.TaskMXBean;
 
 import javax.management.MBeanServer;
 import javax.management.ObjectName;
@@ -20,16 +20,20 @@ import java.nio.file.Path;
 @EnableScheduling
 @AllArgsConstructor
 @Slf4j
-public class ScheduledService implements TaskMBean {
+public class ScheduledService implements TaskMXBean {
     private final ServiceDB service;
 
     @PostConstruct
     private void init() throws Exception {
         MBeanServer mbs = ManagementFactory.getPlatformMBeanServer();
         ObjectName name = new ObjectName("ru.tuganov:type=ScheduledService");
-        mbs.registerMBean(this.getClass(), name);
-        Thread.sleep(Long.MAX_VALUE);
+        if (!mbs.isRegistered(name)) {
+            mbs.registerMBean(this, name);
+        } else {
+            log.info("MBean with name {} is already registered.", name);
+        }
     }
+
 
     @Scheduled(fixedRateString = "PT30M")
     public void remadeFiles() throws IOException {
