@@ -1,0 +1,24 @@
+1648 [Test worker] INFO  ru.tuganov.Task24ApplicationTests Ц Starting Task24ApplicationTests using Java 21.0.2 with PID 15528 (started by user in C:\Users\user\IdeaProjects\task24)
+1653 [Test worker] INFO  ru.tuganov.Task24ApplicationTests Ц No active profile set, falling back to 1 default profile: "default"
+4043 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate Ц Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+4150 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate Ц Finished Spring Data repository scanning in 86 ms. Found 2 JPA repository interfaces.
+6035 [Test worker] INFO  o.h.jpa.internal.util.LogHelper Ц HHH000204: Processing PersistenceUnitInfo [name: default]
+6274 [Test worker] INFO  org.hibernate.Version Ц HHH000412: Hibernate ORM core version 6.4.4.Final
+6383 [Test worker] INFO  o.h.c.i.RegionFactoryInitiator Ц HHH000026: Second-level cache disabled
+7236 [Test worker] INFO  o.s.o.j.p.SpringPersistenceUnitInfo Ц No LoadTimeWeaver setup: ignoring JPA class transformer
+7340 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource Ц HikariPool-1 - Starting...
+7867 [Test worker] INFO  com.zaxxer.hikari.pool.HikariPool Ц HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@453a30f8
+7874 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource Ц HikariPool-1 - Start completed.
+10871 [Test worker] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator Ц HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+11117 [Test worker] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean Ц Initialized JPA EntityManagerFactory for persistence unit 'default'
+12924 [Test worker] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration Ц spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+14724 [Test worker] INFO  o.s.b.a.e.web.EndpointLinksResolver Ц Exposing 1 endpoint(s) beneath base path '/actuator'
+15006 [Test worker] INFO  o.s.s.w.DefaultSecurityFilterChain Ц Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6d86d1ad, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@780e6b63, org.springframework.security.web.context.SecurityContextHolderFilter@1915879c, org.springframework.security.web.header.HeaderWriterFilter@4df8f4e9, org.springframework.security.web.authentication.logout.LogoutFilter@3c3a8246, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@62e55482, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@168f447d, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@51b1732d, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@6b0aa757, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2a6b6f4, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@15961527, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@65b639e1, org.springframework.security.web.access.ExceptionTranslationFilter@557fe039, org.springframework.security.web.access.intercept.AuthorizationFilter@9930ff6]
+16934 [Test worker] INFO  ru.tuganov.Task24ApplicationTests Ц Started Task24ApplicationTests in 16.012 seconds (process running for 18.619)
+16989 [scheduling-1] INFO  ru.tuganov.services.ServiceDB Ц !!!  All students  !!!
+17345 [scheduling-1] INFO  r.t.s.ServiceExecutionTimeAspect Ц ћетод Iterable ru.tuganov.services.ServiceDB.getStudents() выполнен за 347 мс
+17358 [scheduling-1] INFO  ru.tuganov.services.ServiceDB Ц !!!  All subjects  !!!
+17442 [scheduling-1] INFO  r.t.s.ServiceExecutionTimeAspect Ц ћетод Iterable ru.tuganov.services.ServiceDB.getSubjects() выполнен за 84 мс
+18480 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean Ц Closing JPA EntityManagerFactory for persistence unit 'default'
+18487 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource Ц HikariPool-1 - Shutdown initiated...
+18499 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource Ц HikariPool-1 - Shutdown completed.
